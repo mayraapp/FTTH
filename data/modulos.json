@@ -1,0 +1,256 @@
+{
+  "commercial": [
+    {
+      "id": 1,
+      "name": "TELMEX",
+      "detail": "442 000 1201|operaciones.demo@teracom.mx|Cuenta de demostración · Centro|20.5924,-100.3886|Enlace empresarial 500 Mbps",
+      "status": "Activo",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T09:18:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Totalplay",
+      "detail": "442 000 1202|cuenta.demo@teracom.mx|Cuenta de demostración · Norte|20.6328,-100.4021|Enlace empresarial 300 Mbps",
+      "status": "Activo",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:52:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Megacable",
+      "detail": "442 000 1203|soporte.demo@teracom.mx|Cuenta de demostración · Sur|20.5612,-100.3778|Enlace empresarial 500 Mbps",
+      "status": "Pendiente de pago",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T07:40:00Z"
+    },
+    {
+      "id": 4,
+      "name": "izzi",
+      "detail": "442 000 1204|administracion.demo@teracom.mx|Cuenta de demostración · Juriquilla|20.6254,-100.4416|Enlace empresarial 1 Gbps",
+      "status": "Activo",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T09:02:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Cliente de prueba FTTH",
+      "detail": "442 555 0108|cliente.prueba@teracom.mx|Zona demostración · Querétaro|20.5931, -100.3902|200 Mbps",
+      "status": "Activo",
+      "createdAt": "2026-11-27T04:22:37.81111827Z",
+      "updatedAt": "2026-11-27T04:22:37.81111827Z"
+    }
+  ],
+  "coverage": [
+    {
+      "id": 1,
+      "name": "Fraccionamiento El Refugio",
+      "detail": "Factibilidad para 186 viviendas · levantamiento de postes en curso",
+      "status": "En análisis",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Parque Industrial Benito Juárez",
+      "detail": "22 empresas · troncal de 2.4 km autorizada",
+      "status": "Aprobada",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-17T16:10:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Centro Histórico",
+      "detail": "Validación de canalización y permisos municipales",
+      "status": "Pendiente",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T07:15:00Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "May Torres",
+      "detail": "may.torres@teracom.mx|Administrador|TERACOM|442 214 6101",
+      "status": "Activo",
+      "createdAt": "2026-10-04T00:00:00Z",
+      "updatedAt": "2026-11-18T09:42:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Roberto Méndez",
+      "detail": "roberto.mendez@teracom.mx|Líder|TERACOM|442 214 6102",
+      "status": "Activo",
+      "createdAt": "2026-10-02T00:00:00Z",
+      "updatedAt": "2026-11-18T08:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Fernanda Ruiz",
+      "detail": "fernanda.ruiz@teracom.mx|Técnico|TERACOM|442 214 6103",
+      "status": "Activo",
+      "createdAt": "2026-10-08T00:00:00Z",
+      "updatedAt": "2026-11-17T18:36:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Daniel Ortega",
+      "detail": "daniel.ortega@teracom.mx|Técnico|TERACOM|442 214 6104",
+      "status": "Activo",
+      "createdAt": "2026-10-12T00:00:00Z",
+      "updatedAt": "2026-11-18T07:50:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Paola Sosa",
+      "detail": "paola.sosa@teracom.mx|Capturista|TERACOM|442 214 6105",
+      "status": "Activo",
+      "createdAt": "2026-10-09T00:00:00Z",
+      "updatedAt": "2026-11-18T09:42:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Iván Castro",
+      "detail": "ivan.castro@teracom.mx|Sub-técnico|TERACOM|442 214 6106",
+      "status": "Inactivo",
+      "createdAt": "2026-10-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:15:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Andrea Molina",
+      "detail": "andrea.molina@teracom.mx|Cliente|TERACOM|442 214 6107",
+      "status": "Activo",
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-11-18T07:50:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Operador de prueba FTTH",
+      "detail": "operador.prueba@teracom.mx|Técnico|TERACOM|442 555 0109",
+      "status": "Activo",
+      "createdAt": "2026-11-27T04:22:57.7360211Z",
+      "updatedAt": "2026-11-27T04:22:57.7360211Z"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "name": "ONT GPON Wi‑Fi 6",
+      "detail": "84 disponibles · punto de reorden: 40 unidades",
+      "status": "Disponible",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:05:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Caja NAP exterior de 8 puertos",
+      "detail": "26 disponibles · reserva para expansión El Refugio",
+      "status": "Disponible",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:25:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Splitter PLC 1:8 con conectores SC/APC",
+      "detail": "18 disponibles · punto de reorden: 25 unidades",
+      "status": "Reabastecer",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T09:10:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Cable drop G.657A2 de 2 fibras",
+      "detail": "2,400 m en tránsito · recepción estimada el viernes",
+      "status": "En tránsito",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:50:00Z"
+    }
+  ],
+  "network": [
+    {
+      "id": 1,
+      "name": "OLT-QRO-CENTRO-01",
+      "detail": "Huawei MA5800-X7 · 612 ONT en línea · óptica estable en PON 0/1",
+      "status": "Operativa",
+      "map": {
+        "type": "OLT",
+        "zone": "Centro",
+        "x": 20,
+        "y": 30
+      },
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T09:20:00Z"
+    },
+    {
+      "id": 2,
+      "name": "OLT-QRO-NORTE-01",
+      "detail": "ZTE C320 · 428 ONT en línea · potencia PON 0/2 en revisión",
+      "status": "Atención",
+      "map": {
+        "type": "OLT",
+        "zone": "Norte",
+        "x": 77,
+        "y": 27
+      },
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T08:45:00Z"
+    },
+    {
+      "id": 3,
+      "name": "OLT-QRO-SUR-01",
+      "detail": "Huawei MA5800-X2 · 376 ONT en línea · mantenimiento 23:00 h",
+      "status": "En revisión",
+      "map": {
+        "type": "OLT",
+        "zone": "Sur",
+        "x": 68,
+        "y": 74
+      },
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T07:55:00Z"
+    },
+    {
+      "id": 4,
+      "name": "OLT-QRO-JURIQUILLA-01",
+      "detail": "ZTE C320 · 295 ONT en línea · capacidad disponible 41%",
+      "status": "Operativa",
+      "map": {
+        "type": "OLT",
+        "zone": "Juriquilla",
+        "x": 37,
+        "y": 18
+      },
+      "createdAt": "2026-11-13T00:00:00Z",
+      "updatedAt": "2026-11-18T09:05:00Z"
+    },
+    {
+      "id": 5,
+      "name": "OLT-DEMO-CENTRO-01",
+      "detail": "OLT de prueba para validar el registro GIS.",
+      "status": "Operativa",
+      "map": {
+        "type": "OLT",
+        "zone": "Centro demostración",
+        "x": 6,
+        "y": 28
+      },
+      "createdAt": "2026-11-27T04:23:24.924164002Z",
+      "updatedAt": "2026-11-27T04:23:24.924164002Z"
+    },
+    {
+      "id": 6,
+      "name": "ONT-DEMO-CENTRO-001",
+      "detail": "Terminal de prueba asociada a OLT-DEMO-CENTRO-01.",
+      "status": "Operativa",
+      "map": {
+        "type": "ONT",
+        "zone": "Centro demostración",
+        "x": 50,
+        "y": 50
+      },
+      "createdAt": "2026-11-27T04:23:35.161286866Z",
+      "updatedAt": "2026-11-27T04:23:35.161286866Z"
+    }
+  ]
+}

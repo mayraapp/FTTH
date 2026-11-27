@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "folio": "FTTH-0001",
+    "type": "Mantenimiento",
+    "priority": "Alta",
+    "crew": "",
+    "description": "favor de atender",
+    "status": "Pendiente",
+    "createdAt": "2026-11-13T03:48:43.576146978Z",
+    "createdBy": "May Torres"
+  },
+  {
+    "id": 2,
+    "folio": "FTTH-0002",
+    "type": "Instalación",
+    "priority": "Alta",
+    "crew": "",
+    "description": "Demostración: activar servicio FTTH y configurar ONT en el edificio Aurora.",
+    "status": "En proceso",
+    "createdAt": "2026-11-13T02:10:00Z",
+    "createdBy": "Operador Demo"
+  },
+  {
+    "id": 3,
+    "folio": "FTTH-0003",
+    "type": "Incidencia de red",
+    "priority": "Alta",
+    "crew": "",
+    "description": "Demostración: validar potencia óptica en el splitter del sector norte.",
+    "status": "Pendiente",
+    "createdAt": "2026-11-13T01:35:00Z",
+    "createdBy": "Operador Demo"
+  },
+  {
+    "id": 4,
+    "folio": "FTTH-0004",
+    "type": "Ampliación",
+    "priority": "Media",
+    "crew": "",
+    "description": "Demostración: revisar factibilidad para extender cobertura en Colonia Jardines.",
+    "status": "Pendiente",
+    "createdAt": "2026-11-12T23:20:00Z",
+    "createdBy": "Operador Demo"
+  },
+  {
+    "id": 5,
+    "folio": "FTTH-0005",
+    "type": "Soporte técnico",
+    "priority": "Baja",
+    "crew": "",
+    "description": "Demostración: confirmar estabilidad del servicio después del cambio de ONT.",
+    "status": "Resuelta",
+    "createdAt": "2026-11-12T21:15:00Z",
+    "createdBy": "Operador Demo"
+  },
+  {
+    "id": 6,
+    "folio": "FTTH-0006",
+    "type": "Mantenimiento",
+    "priority": "Media",
+    "crew": "",
+    "description": "Demostración: ejecutar limpieza preventiva en el gabinete óptico de Plaza Sur.",
+    "status": "En proceso",
+    "createdAt": "2026-11-12T19:40:00Z",
+    "createdBy": "Operador Demo"
+  },
+  {
+    "id": 7,
+    "folio": "FTTH-0007",
+    "type": "Instalación",
+    "priority": "Alta",
+    "crew": "",
+    "description": "Demostración: cerrar activación empresarial con prueba de velocidad documentada.",
+    "status": "Resuelta",
+    "createdAt": "2026-11-12T17:05:00Z",
+    "createdBy": "Operador Demo"
+  },
+  {
+    "id": 8,
+    "folio": "FTTH-0008",
+    "type": "Mantenimiento",
+    "priority": "Media",
+    "crew": "Por asignar",
+    "description": "Profe Yerry",
+    "status": "Pendiente",
+    "createdAt": "2026-11-19T00:07:33.477915154Z",
+    "createdBy": "May Torres"
+  }
+]

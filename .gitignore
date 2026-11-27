@@ -1,0 +1,5 @@
+# Secretos locales del despliegue
+deploy/.env
+
+# Datos y artefactos de prueba locales de Podman
+deploy/.podman/

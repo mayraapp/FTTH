@@ -1,0 +1,8 @@
+{
+  "name": "ftth-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "sh scripts/build.sh"
+  }
+}

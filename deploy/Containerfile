@@ -1,0 +1,21 @@
+# syntax=docker/dockerfile:1
+# Imagen reproducible de la API FTTH. El frontend ya se publica desde
+# internal/web/dist después de ejecutar: npm --prefix frontend run build
+FROM docker.io/library/golang:1.23-alpine AS build
+
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN go mod download
+COPY backend ./backend
+RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w" -o /out/ftth ./backend/cmd
+
+FROM gcr.io/distroless/base-debian12:nonroot
+
+WORKDIR /app
+COPY --from=build /out/ftth /ftth
+COPY --chown=nonroot:nonroot internal/web/dist ./internal/web/dist
+COPY --chown=nonroot:nonroot data ./data
+
+EXPOSE 8080
+USER nonroot:nonroot
+ENTRYPOINT ["/ftth"]

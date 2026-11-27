@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estado FTTH</title>
+    <style>
+      :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #080916; color: #f7f2ff; }
+      body { margin: 0; display: grid; min-height: 100vh; place-items: center; }
+      main { width: min(640px, calc(100% - 48px)); padding: 36px; border: 1px solid #4d287a; border-radius: 20px; background: #151026; }
+      h1 { margin: 0 0 8px; color: #08c7ff; }
+      p { color: #c3b9d4; line-height: 1.55; }
+      .ok { display: inline-block; padding: 7px 12px; border-radius: 999px; background: #083d35; color: #26e6af; font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="ok">● Servicio disponible</span>
+      <h1>Estado de red FTTH</h1>
+      <p>Proyecto estático independiente, enrutado por NGINX en <code>/estado/</code>. Sirve para demostrar el enrutamiento de una segunda aplicación sin exponer servicios internos.</p>
+    </main>
+  </body>
+</html>
